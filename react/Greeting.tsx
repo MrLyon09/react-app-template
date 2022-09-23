@@ -5,7 +5,8 @@ type Props = {
 }
 
 function Greeting({ name }: Props) {
-  return <div>Hey, {name}</div>
+  console.log("", name);
+  return <div>Hello world, {name}</div>
 }
 
 export default Greeting
